@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    
+}
+header{
+    background-color: rgb(112, 112, 240);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-rows: auto;
+    display: flex;
+    flex-wrap: wrap;
+     padding: 1rem; 
+
+}
+#bun{
+    background-color: orange;
+}
+
+
+mark{
+    background-color: transparent;
+    color: gold;
+    font-family: sans-serif;
+}
+em{
+    color: white;
+     
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+    
+}
+header img{
+    width: 6rem;
+}
+.home1 a {
+    display: grid;
+    grid-template-rows: auto;
+    
+}
+ .home2 input{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    background-color: white;
+    padding-left: 1rem;
+    outline: none;
+} 
+ .home2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.home2 button{
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border: none;
+}
+.home3 button{
+    width: 6rem;
+    padding: .8rem;
+}
+.home4 a{
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.home5 a{
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.home6 a{
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.home6 ion-icon{
+    font-size: 1.2rem;
+    color: white;
+    
+}
+.offers{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    justify-content: space-evenly;
+    grid-template-rows: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.offers article img{
+    width: 4rem;
+     padding-top: 1rem; 
+
+}
+.offers article h4{
+    font-size: .8rem;
+    font-family: sans-serif;
+}
+.offers article h4:hover{
+    color: blue;
+
+}
+
+.offers2{
+    background-color: rgb(184, 229, 229);
+    /* margin-top: 2rem; */
+      padding: .8rem 0; 
+    width: 100%;
+}
+
+.offers2 img{
+  width: 100%;
+  
+   
+}
+ .offers3{
+  width: 100%;
+}
+.offers3 img{
+    width: 100%;
+}
+.offers4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(222, 241, 241);
+    padding: 1rem 0;
+}
+
+h2{
+    padding: 1rem 4rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+
+}
+
+
+.offers4 article img{
+    width: 30rem;
+    height: 18rem; 
+
+}
+ .offers4 .img1 img{
+    width: 26rem;
+    height: 18rem;
+}
+.offers4 .img2 img{
+    height: 18rem;
+    width: 30rem;
+} 
+
+.offers5{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+   
+}   
+.ah img{
+    width: 15rem;
+    height: 20rem;
+    
+}
+.offers5 h4,p{
+    color: gray;
+    font-family: sans-serif;
+    padding-top: .8rem;
+}
+.offers5 h3{
+    font-family: sans-serif;
+    padding-top: .8rem;
+}
+.offers5 img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.offers6{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+     grid-template-rows: auto;  
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    background-color: rgb(155, 231, 231);
+}
+.offers6 img{
+     width: 30rem;
+     height: 17rem;
+     padding-top: .3rem;
+}
+.offers7{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-rows: auto;
+    justify-content: space-around;
+    
+    background-color: rgb(155, 231, 231);
+
+}
+.offers7 img{
+    width: 30rem;
+    height: 17rem;
+    
+}
+.offers7 article{
+
+    padding-bottom: 1rem;
+}
+.offers7 article h3{
+    font-family: sans-serif;
+    padding-left: 1rem;
+}
+.offers7 article:hover{
+    transform: scale(1.03);
+    text-decoration: 1s;
+}
+.offers8{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+
+    background-color: rgb(155, 231, 231);
+}
+.offers8 img{
+    width: 30rem;
+    height: 15rem;   
+}
+
+
+.offers9 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.offers9 article:hover{
+    transform: scale(1.03);
+    text-decoration: 1s;
+}
+
+
+.offers9 h4,p{
+    color: gray;
+    font-family: sans-serif;
+    padding-top: .9rem;
+}
+.offers9 h3{
+    font-family: sans-serif;
+    padding-top: .9rem;
+}
+.order1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-rows: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+
+}
+.order1 h4,p{
+    color: gray;
+    font-family: sans-serif;
+    padding-top: .9rem;
+}
+.order1 h3{
+    font-family: sans-serif;
+    padding-top: .9rem;
+    width: 10rem;
+}
+.order1 article:hover{
+    transform: scale(1.03);
+    text-decoration: 1s;
+}
+.order2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+   flex-wrap: wrap;
+}
+.order3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.order3 img{
+    width: 30rem;
+    height: 15rem;   
+}
+.order3 img:hover{
+    transform: scale(1.03);
+    text-decoration: 1s;
+}
+.order4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-rows: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.order4 img{
+    width: 23rem;
+    height: 11rem;
+}
+.order5{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: flex-start;
+    justify-content: flex-star;
+    display: flex;
+    flex-wrap: wrap;
+}
+#img1 img{
+    width: 11rem;
+    
+}
+.order5 article{
+    padding: 2rem 0 3rem 5rem;
+}
+#a{
+    line-height: 2.5rem;
+    font-size: 2rem;
+    padding-top: 5rem;
+    font-family: sans-serif;
+}
+#a button{
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(134, 134, 237);
+    border: none;
+    border-radius: .2rem;
+      color: white;
+}
+#img1 ul{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding-top: 1rem;
+}
+#img1 p{
+    width: 10rem;
+    color: black;
+    line-height: 1.5rem;
+}
+#img1 ul li img{
+    width: 5rem;
+
+}
+#img1 li button{
+     width: 5rem;
+     background-color: rgb(230, 107, 107);
+     color: white;
+     border: none;
+     height: 2rem;
+     
+}
+#img1 p:hover{
+color: blue;
+}
+#img1 li h5{
+    padding: 0 .5rem;
+    font-size: 1rem;
+     color: gray;
+}
+.order6{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.order6 img{
+    width: 22rem;
+}
+.order7{
+    width: 100%;
+    padding: 0 1rem;
+}
+.order7 h3{
+    color: gray;
+    padding: 1rem 0;
+}
+.order7 p{
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+footer{
+    background-color: rgb(41, 33, 33);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+    
+
+}
+footer li a{
+  color: white;
+}
+footer li h3{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
